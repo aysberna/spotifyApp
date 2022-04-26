@@ -41,9 +41,22 @@ Run web server with when you are in project backend directory
 ```sh
 python manage.py runserver
 ```
+
+Run application with when you are in project frontend directory
+```sh
+npm start
+```
+
+Run full app with 
+```sh
+http://localhost:3000/
+```
+
+## Web service api
+
 | Method | Endpoint | Description |
 | ------ | ------   | ------ |
-| GET | http://localhost:8000/tracks/{genre} | search on Spotify
+| GET | http://localhost:8000/tracks/{genre}/ | search on Spotify ex. http://localhost:8000/tracks/rock/
 
 ```
 spotifyApp
