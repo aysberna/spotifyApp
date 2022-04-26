@@ -2,7 +2,7 @@
 
 ## Overview
 
-A simple web-app that consists of backend and frontend components using Spotify Search API.
+A simple web-app that consists of backend and frontend components. Type the word you want to search in the search box and list the first 10 albums with their images thanks to Spotify Search Api.
 Written with Django, React and love.
 
 ## Mostly used libraries for backend
@@ -10,7 +10,7 @@ Written with Django, React and love.
 Django
 djangorestframework
 
-## Mostly used libraries for Frontend
+## Mostly used libraries for frontend
 
 React js
 axios
