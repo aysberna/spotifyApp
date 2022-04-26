@@ -6,8 +6,8 @@ import requests
 class TrackView(APIView):
 
     def get(self, request, param):
-        CLIENT_ID = "c708d63da1d743dc91d5d57120a59655"
-        CLIENT_SECRET = "c717c9614fb64166879be46a875cc043"
+        CLIENT_ID = "CLIENT_ID"
+        CLIENT_SECRET = "CLIENT_SECRET"
         
         AUTH_URL = "https://accounts.spotify.com/api/token"
         auth_response = requests.post(AUTH_URL, {
