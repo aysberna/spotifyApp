@@ -44,6 +44,7 @@ python manage.py runserver
 
 Run application with when you are in project frontend directory
 ```sh
+npm install
 npm start
 ```
 
